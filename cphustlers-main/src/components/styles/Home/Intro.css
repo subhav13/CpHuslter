@@ -1,0 +1,95 @@
+label{
+    color: white;
+}
+
+.user-home-details-con{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding: 0 6rem;
+    align-items: center;
+}
+
+.home-detail-con{
+    width: fit-content;
+    height: 150px;
+    color: white;
+    background: var(--defused-green);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    flex-direction: column;
+    min-width: 200px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.home-detail-con p{
+    font-size: 30px;
+}
+
+.questions-details{
+    width: 100%;
+    display: flex;
+    padding: 0 6rem;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.question-container{
+    width: 60%;
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.user-profile{
+    width :38%;
+    height: 70px;
+    background: #8d612b;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 13px;
+    padding: 0 18px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.question{
+    margin-top: 10px;
+    height: 100px;
+    padding: 4px 15px;
+    border-radius: 15px;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    background: #333C83;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.question .title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.question .title .head{
+    font-size: 20px;
+}
+
+.question .title .difficulty{
+    padding: 4px;
+    border-radius: 12px;
+    background: rgb(236, 108, 108);
+}
+
+.question .subtitle{
+    color: var(--color-light-grey);
+    line-height: 1.3em;
+    max-height: 2.6em;
+    word-wrap: break-word;
+    overflow: hidden;
+}

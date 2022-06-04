@@ -1,0 +1,71 @@
+.solve-page{
+    color : white;
+}
+
+.solve-page h3,.solve-page h4{
+    color: var(--color-light-grey);
+}
+
+.question-panel{
+    height: 90vh;
+}
+
+.question-panel p{
+    white-space: pre-line;
+}
+
+
+.input-container, .output-container{
+    padding: 15px;
+    background: #333C83;
+    border: 1px solid var(--color-light-grey);
+    border-radius: 12px;
+    white-space: pre-line;
+}
+
+.output{
+    margin-top: 12px;
+}
+.editor-container{
+    overflow-y: scroll;
+}
+.select-lang{
+    padding: 0 18px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--home-blue);
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    color: white !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: #1976d2 !important;
+}
+
+.ques-modal-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+}
+
+.paste-code{
+    height: 30px;
+    padding:2px 2px;
+    background-color: cornflowerblue;
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius : 18px; 
+    user-select: none;
+    cursor: pointer;
+}
+
+.table{
+    color : white !important; 
+}
